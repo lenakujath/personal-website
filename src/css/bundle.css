@@ -108,15 +108,16 @@ p {
     line-height: 4.5;
     font-size: 20px;
     transform: skew(-15deg);
+    border: 1px solid black;
+    margin-top: 2rem;
 }
 
 .nav-links li a {
     /* background-color: #497e5f; */
     /* background-color: #994960; */
-    border: 1px solid black;
     padding: 1rem 1.5rem;
-    
 }
+
 .nav-links li a:hover {
    text-decoration: line-through;
 
