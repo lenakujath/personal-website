@@ -109,6 +109,8 @@ p {
     font-size: 20px;
     transform: skew(-15deg);
     border: 1px solid black;
+    box-shadow: 2px 4px 0px 1px #120e1e;
+    background: #af3044;
     margin-top: 2rem;
 }
 
@@ -116,6 +118,7 @@ p {
     /* background-color: #497e5f; */
     /* background-color: #994960; */
     padding: 1rem 1.5rem;
+    color: white;
 }
 
 .nav-links li a:hover {
