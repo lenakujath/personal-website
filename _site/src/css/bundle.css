@@ -137,11 +137,11 @@ p {
     /* color: white; */
 }
 
-#about-me {
+#about-me-content {
     text-align: left;
 }
 
-#tech-stack {
+#tech-stack-content {
     display: flex;
     justify-content: space-between;
 }
@@ -161,6 +161,12 @@ p {
     min-width: 250px;
     display: flex;
     flex-direction: column;
+}
+
+.card img {
+    margin-right: 1rem;
+    width: 30%;
+    flex: 0 0 clamp(70px, 10cqw + 70px, 150px);
 }
 
 @container (min-width: 400px) {
