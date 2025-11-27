@@ -18,13 +18,10 @@ ul.nav-links {
 body {
 	margin: 0; 
     font-family: 'Cutive Mono';
-    /* background-color: #131127; */
-    /* color: white; */
 }
 
 main {
-    margin: 0 8rem;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
