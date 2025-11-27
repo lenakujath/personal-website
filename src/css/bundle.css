@@ -5,7 +5,7 @@
     font-style: normal;
     font-weight: 400;
     src: url('../../fonts/cutive-mono-v21-latin_latin-ext-regular.woff2') format('woff2'); 
-  }
+}
   
 * {
 	box-sizing: border-box;
@@ -31,7 +31,6 @@ main {
 main section {
     margin: 3rem;
     padding: 2rem;
-    /* background-color: white; */
 }
 
 .section {
@@ -97,10 +96,8 @@ p {
 }
 
 #hero { 
-    /* background-color: black;   */
     height: 600px;
     width: 100%; 
-    /* color: white; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -110,19 +107,19 @@ p {
 .nav-links li {
     list-style-type: none;
     line-height: 4.5;
-    font-size: 20px;
+    font-family: monospace;
+    font-size: 14px;
     transform: skew(-15deg);
     border: 1px solid black;
     box-shadow: 2px 4px 0px 1px #120e1e;
-    background: #af3044;
     margin-top: 2rem;
+    /* background: #af3044; */
 }
 
 .nav-links li a {
     /* background-color: #497e5f; */
     /* background-color: #994960; */
     padding: 1rem 1.5rem;
-    color: white;
 }
 
 .nav-links li a:hover {
@@ -175,9 +172,6 @@ p {
   }
 }
 
-
-
- 
 /* #cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -207,8 +201,6 @@ p {
 .card img {
     max-width: 100%;
 } */
-
- 
 
 footer {
     /* background-color: black; */
