@@ -105,7 +105,7 @@ p {
     list-style-type: none;
     line-height: 4.5;
     font-family: monospace;
-    font-size: 14px;
+    font-size: 16px;
     transform: skew(-15deg);
     border: 1px solid black;
     box-shadow: 2px 4px 0px 1px #120e1e;
