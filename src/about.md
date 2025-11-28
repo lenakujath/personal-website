@@ -1,6 +1,7 @@
 ---
 title: "About me"
-layout: 'page.njk'
+subheading: "Some Subheading"
+layout: "page.njk"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
