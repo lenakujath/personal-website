@@ -1,0 +1,20 @@
+{
+  "pages": [
+    {
+      "label": "Information",
+      "url": "/about"
+    },
+     {
+      "label": "Tech And Tools",
+      "url": "/tech"
+    },
+    {
+      "label": "Playground",
+      "url": "/playground"
+    },
+    {
+      "label": "Contact",
+      "url": "/contact"
+    }
+  ]
+}

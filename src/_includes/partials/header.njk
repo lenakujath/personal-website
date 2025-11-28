@@ -3,13 +3,20 @@
     <header id="hero">
         <nav class="nav">
             <ul class="nav-links">
-                <li><a href="#about-me">About Me</a></li>
+                {# <li><a href="/about.md">About Me</a></li>
                 <li><a href="#tech-stack" >Tech And Tools</a></li>
                 <li><a href="#projects" >Playground</a></li>
-                <li><a href="#contact" >Contact Me</a></li>
+                <li><a href="#contact" >Contact Me</a></li> #}
+        {% for item in nav.pages %}
+        <li>
+          <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
+            <span>{{ item.label }}</span>
+          </a>
+        </li>
+      {% endfor %}
             </ul>
         </nav>
         <div class="title">
-            <h1>Hi! I'm Lena, a web developer based in Germany.</h1>
+            <h1> {{ title }} </h1>
         </div>
     </header>
