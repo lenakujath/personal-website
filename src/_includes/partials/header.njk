@@ -1,22 +1,22 @@
-{# <section class="topbar">
-</section> #}
-    <header id="hero">
-        <nav class="nav">
-            <ul class="nav-links">
-                {# <li><a href="/about.md">About Me</a></li>
-                <li><a href="#tech-stack" >Tech And Tools</a></li>
-                <li><a href="#projects" >Playground</a></li>
-                <li><a href="#contact" >Contact Me</a></li> #}
+<div class="topbar">
+  <a href="/">
+    <img class="logo" alt="Logo" src="../../../images/logo.svg" width="30px" heigth="30px">
+  </a>
+  <p>test</p>
+</div>
+<header id="hero">
+    <nav class="nav">
+      <ul class="nav-links">
         {% for item in nav.pages %}
         <li>
           <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
             <span>{{ item.label }}</span>
           </a>
         </li>
-      {% endfor %}
-            </ul>
-        </nav>
-        <div class="title">
-            <h1> {{ title }} </h1>
-        </div>
-    </header>
+        {% endfor %}
+      </ul>
+    </nav>
+    <div class="title">
+        <h1> {{ title }} </h1>
+    </div>
+</header>
