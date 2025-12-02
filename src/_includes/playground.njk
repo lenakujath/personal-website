@@ -4,12 +4,13 @@
         <header class="section-header">
             <!-- section header content -->
             <div>
-                {# <img alt="icon_projects" src="/images/favicon.svg" width="100px" height="100px"/> #}
+                <img alt="icon_projects" src="/images/zirkel.svg"/>
                 <h3>Current Projects</h3>
-                <p>Projects I currently am working on</p>
+                <p>Projects I am currently working on</p>
             </div>
         </header>
             <div class="project-container">
+                {# if there is more than one card, they should takte up less space and display in a grid row #}
                 <div class="card">
                     <img src="../../images/play.png" alt='Project One "Portfolio Play"'>
                     <div class="card-content">
@@ -26,40 +27,47 @@
                 </div>
                 <div class="card">
                     <img src="/images/sequencer.png" alt='Project Two "Sequencer"'>
-                    <h3>Project 1</h3>
-                    <p>
-                        Project Description: 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    </p>
-                    <div class="card-links">
-                        <p class="code-link"><a href="#">&lt;Code/&gt;</a></p>
-                        <p class="project-link"><a href="#">Visit Website</a></p>
+                    <div class="card-content">
+                        <h3>Project 2</h3>
+                        <p>
+                            Project Description: 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        </p>
+                        <div class="card-links">
+                            <p class="code-link"><a href="#">&lt;Code/&gt;</a></p>
+                            <p class="project-link"><a href="#">Visit Website</a></p>
+                        </div>
                     </div>
                 </div>
-              <!--  <div class="card">
+                {# 
+                <div class="card">
                     <img src="/images/piano.jpg" alt="Project Image 01">
-                    <h3>Project 1</h3>
-                    <p>
-                        Project Description: 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    </p>
-                    <div class="card-links">
-                        <p class="code-link"><a href="#">&lt;Code/&gt;</a></p>
-                        <p class="project-link"><a href="#">Visit Website</a></p>
+                           <div class="card-content">
+                        <h3>Project 2</h3>
+                        <p>
+                            Project Description: 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        </p>
+                        <div class="card-links">
+                            <p class="code-link"><a href="#">&lt;Code/&gt;</a></p>
+                            <p class="project-link"><a href="#">Visit Website</a></p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
                     <img src="/images/piano.jpg" alt="Project Image 01">
-                    <h3>Project 1</h3>
-                    <p>
-                        Project Description: 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    </p>
-                    <div class="card-links">
-                        <p class="code-link"><a href="#">&lt;Code/&gt;</a></p>
-                        <p class="project-link"><a href="#">Visit Website</a></p>
+                         <div class="card-content">
+                        <h3>Project 2</h3>
+                        <p>
+                            Project Description: 
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        </p>
+                        <div class="card-links">
+                            <p class="code-link"><a href="#">&lt;Code/&gt;</a></p>
+                            <p class="project-link"><a href="#">Visit Website</a></p>
+                        </div>
                     </div>
-                </div> -->
+                </div>  #}
             </div>
     </section>
 {% endblock %}
