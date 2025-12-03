@@ -25,15 +25,10 @@ main {
     margin: 0 auto;
 }
 
-main section {
-    /* margin: 3rem; */
-    padding: 2rem;
-}
-
 .section {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 3.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3.5rem;
 
   @media (min-width: 600px) {
     grid-template-columns: 240px 1fr;
@@ -52,25 +47,24 @@ main section {
 }
 
 .section-header {
-  container-name: section-header;
-  container-type: inline-size;
+    container-name: section-header;
+    container-type: inline-size;
 }
 
 .section-header img {
-  width: 250px;
-  height: 250px;
-  object-fit: contain;
-}
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    }
 
 /* Using cqw unit with clamp() to achieve fluent typography*/
 .section-title {
-  font-size: clamp(1rem, 1rem + 2cqw, 1.75rem);
+    font-size: clamp(1rem, 1rem + 2cqw, 1.75rem);
 }
 
 
 a {
     text-decoration: none;
-    /* color: white; */
 }
 
 a:visited {
@@ -85,12 +79,10 @@ h2 {
     text-align: left;
     font-size: 30px;
     text-transform: uppercase;
-    /* color: #58e6d9; */
 }
 
 h3 {
     font-size: 25px;
-    /* color: white; */
 }
 
 p {
@@ -116,17 +108,14 @@ p {
     border: 1px solid black;
     box-shadow: 2px 4px 0px 1px #120e1e;
     margin-top: 2rem;
-    /* background: #af3044; */
 }
 
 .nav-links li a {
-    /* background-color: #497e5f; */
-    /* background-color: #994960; */
     padding: 1rem 1.5rem;
 }
 
 .nav-links li a:hover {
-   text-decoration: line-through;
+    text-decoration: line-through;
 
 }
 
@@ -158,8 +147,8 @@ p {
 }
 
 .project-container {
-  container-type: inline-size;
-  width: 100%;
+    container-type: inline-size;
+    width: 100%;
 }
 
 .card {
@@ -186,39 +175,7 @@ p {
   }
 }
 
-/* #cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-} */
-
-
-/* .card-links {
-    display: flex;
-} */
-
-/* #cards a { */
-    /* color: white; */
-    /* background-color: #994960;
-    padding: 0.5rem 1rem;
-} */
-
-/* #cards a:hover { */
-    /* padding: 0.8rem 1.2rem; */
-    /* text-decoration: line-through;
-} */
-
-/* .code-link {
-    margin-right: 1rem;
-}
-
-.card img {
-    max-width: 100%;
-} */
-
 footer {
-    /* background-color: black; */
-    /* color: white; */
     padding: 1rem;
     text-align: center;
 }
@@ -249,5 +206,4 @@ footer {
     h3 {
         font-size: 18px;
     }
-
 }
