@@ -1,3 +1,4 @@
+{# Turn card into partial component eventually #}
 {% extends "base.njk" %}
 {% block content %}
     <section class="section">
@@ -12,12 +13,17 @@
             <div class="project-container">
                 {# if there is more than one card, they should takte up less space and display in a grid row #}
                 <div class="card">
-                    <img src="../../images/play.png" alt='Project One "Portfolio Play"'>
+                    <div class="img-container">
+                        <img src="../../images/play.png" alt='Project One "Portfolio Play"'>
+                    </div>
+                    <div class="h-container">
+                        <h3>Mini 2DGame Style Portfolio</h3>
+                    </div>
                     <div class="card-content">
-                        <h3>Project 1</h3>
                         <p>
-                            Project Description: 
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            A little more creative and just for fun approach to a portfolio. 
+                            A little more creative and just for fun approach to a portfolio. 
+                            A little more creative and just for fun approach to a portfolio. 
                         </p>
                         <div class="card-links">
                             <p class="code-link"><a href="#">&lt;Code/&gt;</a></p>
@@ -25,13 +31,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="/images/sequencer.png" alt='Project Two "Sequencer"'>
+                 <div class="card">
+                    <div class="img-container">
+                        <img src="/images/sequencer.png" alt='Project Two "Sequencer"'>
+                    </div>    
+                    <div class="h-container">
+                        <h3>Music Sequencer</h3>
+                    </div>
                     <div class="card-content">
-                        <h3>Project 2</h3>
                         <p>
-                            Project Description: 
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                Music Sequencer to play around with.
                         </p>
                         <div class="card-links">
                             <p class="code-link"><a href="#">&lt;Code/&gt;</a></p>
@@ -39,7 +48,7 @@
                         </div>
                     </div>
                 </div>
-                {# 
+                {#
                 <div class="card">
                     <img src="/images/piano.jpg" alt="Project Image 01">
                            <div class="card-content">
