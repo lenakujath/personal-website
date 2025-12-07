@@ -1,5 +1,7 @@
 ---
 title: "Hi! I'm Lena."
+image: "../../../images/portrait.jpg"
+alt: "Profilfoto von mir"
 layout: 'index.njk'
 ---
 

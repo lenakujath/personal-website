@@ -25,6 +25,19 @@ main {
     margin: 0 auto;
 }
 
+.title {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+.title img {
+    border-radius: 55%;
+    height: 235px;
+    width: 350px;
+    object-fit: contain;
+}
+
 .section {
     display: grid;
     grid-template-columns: 1fr;
