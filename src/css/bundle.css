@@ -155,12 +155,16 @@ p {
     max-width: 350px;
     display: flex;
     flex-direction: column;
-    border: 2px solid lightgrey;
     padding: 1rem;
     position: relative;
-    margin: 1rem;
+    margin: 1rem;  
+    transition: border 0.1s ease-in, border-radius 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.card:hover {
+    border: 2px solid lightgrey;
     border-radius: 20px;
-        box-shadow: 1px 4px 10px 2px lightgrey;
+    box-shadow: 1px 4px 10px 2px lightgrey;
 }
 
 .card img {
