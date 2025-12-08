@@ -2,6 +2,7 @@
 title: "About me"
 subheading: "Some Subheading"
 layout: "page.njk"
+style: "display:none"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 

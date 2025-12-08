@@ -1,6 +1,7 @@
 ---
 title: "Hi! I'm Lena."
 image: "../../../images/portrait.jpg"
+class: "circle"
 alt: "Profilfoto von mir"
 layout: 'index.njk'
 ---
