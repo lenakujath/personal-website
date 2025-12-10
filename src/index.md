@@ -2,7 +2,8 @@
 title: "Hi! I'm Lena."
 image: "../../../images/portrait.jpg"
 class: "circle"
-alt: "Profilfoto von mir"
+href: "/about"
+alt: "profile picture of the site's author"
 layout: 'index.njk'
 ---
 
