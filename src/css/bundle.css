@@ -131,7 +131,7 @@ p {
     /* height: 600px; */
     width: 100%; 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 5rem; 
 } 
@@ -271,8 +271,8 @@ footer {
         padding: 3rem;;
     }
     .project-container:has(.card:nth-last-child(n+2)) {
-    flex-direction: column;
-    align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
     .section-header {
         text-align: center;
@@ -286,6 +286,14 @@ footer {
     .title {
         flex-direction: column-reverse;
         align-items: center;
+    }
+    #tech-stack-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #tech-stack-content img {
+        margin-top: 1rem;
     }
 }
 
