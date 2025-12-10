@@ -8,8 +8,8 @@
     <link rel="icon" type="image/x-icon" href="../../images/favicon.svg">
   </head>
   <body>
-      <main>
       {% include "partials/header.njk" %}
+      <main>
         {% block content %}
           {{ content | safe }}
         {% endblock %}
