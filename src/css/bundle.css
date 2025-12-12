@@ -6,6 +6,43 @@
     font-weight: 400;
     src: url('../../fonts/cutive-mono-v21-latin_latin-ext-regular.woff2') format('woff2'); 
 }
+
+/* figtree-regular - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/figtree-v9-latin-regular.woff2') format('woff2'); 
+}
+
+/* figtree-italic - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Figtree';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/figtree-v9-latin-italic.woff2') format('woff2'); 
+}
+
+/* figtree-700 - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/figtree-v9-latin-700.woff2') format('woff2'); 
+}
+
+/* figtree-900 - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/figtree-v9-latin-900.woff2') format('woff2'); 
+}
+
   
 * {
 	box-sizing: border-box;
@@ -16,8 +53,9 @@ ul.nav-links {
 }
 
 body {
-	margin: 0; 
-    font-family: 'Cutive Mono';
+	margin: 0 auto; 
+    font-family: 'Figtree';
+    max-width: 1300px;
 }
 
 main {
@@ -128,10 +166,9 @@ p {
 }
 
 #hero { 
-    /* height: 600px; */
     width: 100%; 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 5rem; 
 } 
@@ -139,7 +176,7 @@ p {
 .nav-links li {
     list-style-type: none;
     line-height: 4.5;
-    font-family: monospace;
+    font-family: 'Figtree';
     font-size: 16px;
     transform: skew(-15deg);
     border: 1px solid black;
