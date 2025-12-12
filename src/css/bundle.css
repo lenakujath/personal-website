@@ -197,6 +197,7 @@ p {
 
 ul.nav-links {
     padding: 0;
+    margin-bottom: 5rem;
 }
 
 a:visited {
@@ -216,11 +217,11 @@ a:visited {
     height: 60px;
 }
 
-#about-me-content {
+#about-me {
     text-align: left;
 }
 
-#tech-stack-content {
+#tech-stack {
     display: flex;
     justify-content: space-between;
 }
@@ -329,19 +330,23 @@ footer {
         justify-self: center;
     }
     #hero{
-        justify-content: space-evenly;
+        justify-content: space-between;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
     }
     .title {
         flex-direction: column-reverse;
         align-items: center;
     }
-    #tech-stack-content {
+    #tech-stack {
         flex-direction: column;
         align-items: center;
     }
-
-    #tech-stack-content img {
+    #tech-stack img {
         margin-top: 1rem;
+    }
+    .section {
+        gap: 0;
     }
 }
 
