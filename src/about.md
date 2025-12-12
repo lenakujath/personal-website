@@ -1,8 +1,8 @@
 ---
 title: "About me"
 subheading: "Some Subheading"
-layout: "page.njk"
 style: "display:none"
+layout: "page.njk"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 

@@ -2,19 +2,19 @@
   "pages": [
     {
       "label": "Information",
-      "url": "/about"
+      "url": "/about#about-me"
     },
      {
       "label": "Tech And Tools",
-      "url": "/tech"
+      "url": "/tech#tech-stack"
     },
     {
       "label": "Playground",
-      "url": "/playground"
+      "url": "/playground#playground"
     },
     {
       "label": "Contact",
-      "url": "/contact"
+      "url": "/contact#about-me"
     }
   ]
 }

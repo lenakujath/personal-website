@@ -2,7 +2,7 @@
 title: ""
 image: "../../../images/portrait.jpg"
 class: "circle"
-href: "/about"
+href: "/about#about-me"
 alt: "profile picture of the site's author"
 layout: 'index.njk'
 ---
