@@ -4,13 +4,13 @@
       "label": "Information",
       "url": "/about#about-me"
     },
-     {
-      "label": "Tech And Tools",
-      "url": "/tech#tech-stack"
-    },
     {
       "label": "Playground",
       "url": "/playground#playground"
+    },
+     {
+      "label": "Links etc.",
+      "url": "/links#links-stack"
     },
     {
       "label": "Contact",
