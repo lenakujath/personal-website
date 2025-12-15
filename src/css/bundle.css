@@ -87,7 +87,7 @@ picture {
 }
 
 picture:hover .circle {
-    transform: skew(-8deg, -20deg)
+    transform: skew(36deg, -23deg);
 }
 
 .section {

@@ -1,6 +1,6 @@
 ---
 title: ""
-image: "../../../images/portrait.jpg"
+image: "../../../images/portrait_2.webp"
 class: "circle"
 href: "/about#about-me"
 alt: "profile picture of the site's author"
