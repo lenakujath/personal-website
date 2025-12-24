@@ -1,4 +1,5 @@
 export default {
+  
   /**
    * Returns back some attributes based on whether the
    * link is active or a parent of an active item
@@ -7,6 +8,7 @@ export default {
    * @param {String} pageUrl The page context
    * @returns {String} The attributes or empty
    */
+
   getLinkActiveState(itemUrl, pageUrl) {
     let response = "";
 
