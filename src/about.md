@@ -1,6 +1,6 @@
 ---
-title: "About me"
-subheading: "Some Subheading"
+title: "some lines about my background"
+subheading: "About me"
 style: "display:none"
 layout: "page.njk"
 ---
