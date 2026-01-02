@@ -1,7 +1,8 @@
 ---
 title: "some lines about my background"
 subheading: "About me"
-style: "display:none"
+image: "../../../images/info.svg"
+alt: "speech bubble indicating personal info"
 layout: "page.njk"
 ---
 
