@@ -1,5 +1,5 @@
 ---
-title: "some lines about my background"
+title: "background info"
 subheading: "About me"
 image: "../../../images/info.svg"
 alt: "speech bubble indicating personal info"
