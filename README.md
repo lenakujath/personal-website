@@ -3,7 +3,7 @@
 Here you find the source code to my personal website.
 
 It is built with the static stite generator Elventy. 
-I stumbled on and the limited experience I have with is absolutely positive.
+I made myself familiar with it just recently and the limited experience I have with is absolutely positive.
 
 If you want to check it out yourself, the documentation is great: https://www.11ty.dev/docs/
 
