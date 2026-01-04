@@ -8,4 +8,4 @@ layout: 'index.njk'
 ---
 
 ## Hi, I'm Lena! 
-I'm a web developer who fell in love with independent web once and now strives to keep on learning about its magic. Currently based in the south of Germany.
+I'm a web developer who fell in love with the independent web once and now strives to keep on learning about its magic. Currently based in the south of Germany.
