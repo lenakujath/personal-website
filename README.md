@@ -1,6 +1,6 @@
 # lenakujath.dev
 
-Here you find the source code to my personal website.
+This repo contains the source code to my personal website.
 
 It is built using Elventy, a static stite generator. 
 I made myself familiar with it just recently and the limited experience I have with has been remarkably positive.
