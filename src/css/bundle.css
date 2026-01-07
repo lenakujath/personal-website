@@ -335,6 +335,7 @@ footer {
     .topbar { 
         justify-self: center;
         flex-direction: column;
+        gap: 2rem;
     }
     #hero {
         justify-content: space-between;
