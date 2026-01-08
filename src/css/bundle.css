@@ -262,7 +262,7 @@ a:visited {
 }
 
 .card img {
-    max-width: 250px;
+    max-width: 170px;
     flex: 0 0 clamp(70px, 10cqw + 70px, 150px);
     position: absolute;
 }
@@ -272,6 +272,7 @@ a:visited {
     height: 250px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .card-content {
