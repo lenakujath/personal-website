@@ -2,7 +2,7 @@
   "pages": [
     {
       "label": "Information",
-      "url": "/about#about-me"
+      "url": "/information#about-me"
     },
     {
       "label": "Playground",

@@ -2,7 +2,7 @@
 title: ""
 image: "../../../images/portrait_bw.webp"
 class: "circle"
-href: "/about#about-me"
+href: "/information#about-me"
 alt: "profile picture of the site's author"
 layout: 'index.njk'
 ---
