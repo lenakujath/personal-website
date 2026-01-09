@@ -153,7 +153,6 @@ p {
 }
 
 a {
-    text-decoration: none;
     color: black;
     font-weight: bold;
 }
@@ -230,11 +229,6 @@ a:visited {
 #about-me li {
     padding: 0.5rem;
     list-style: none;
-}
-
-#links-stack {
-    display: flex;
-    justify-content: space-between;
 }
 
 .section-content {
@@ -347,18 +341,10 @@ footer {
         flex-direction: column-reverse;
         align-items: center;
     }
-    #links-stack {
-        flex-direction: column;
-        align-items: center;
-    }
-    #links-stack img {
-        margin-top: 1rem;
-    }
     .section {
         gap: 0;
     }
 }
-
 @media (max-width: 480px){
     h1 {
         font-size: 30px;

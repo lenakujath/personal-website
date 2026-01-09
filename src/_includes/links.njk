@@ -1,6 +1,7 @@
 {% extends "base.njk" %}
 {% block content %}
-    <section id="links-stack">
-        <h2> {{ subheading }}</h2>
+    <section id="links-section">
+        <h2>{{ subheading }}</h2>
+        <p>{{ content | safe }}</p> 
     </section>
 {% endblock %}
