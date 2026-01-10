@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "start here ☝ "
 image: "../../../images/portrait_bw.webp"
 class: "circle"
 href: "/information#about-me"
