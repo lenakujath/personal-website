@@ -153,6 +153,7 @@ p {
 }
 
 a {
+    text-decoration: none;
     color: black;
     font-weight: bold;
 }
@@ -234,6 +235,14 @@ a:visited {
 .section-content {
     display: flex;
     flex-wrap: wrap;
+}
+
+section#links-section h2 {
+    margin-bottom: 4rem;
+}
+
+section#links-section a {
+    text-decoration: underline;
 }
  
 .project-container {
