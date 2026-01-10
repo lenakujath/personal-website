@@ -11,3 +11,12 @@ I was hugely inspired to finally create my own space on the web by [Sophie Kooni
 and who has also a fun website. Besides running an informative blog, you can switch between different themes and check out 
 some of her projects at https://localghost.dev.
 Her [Repo](https://github.com/sophiekoonin/localghost) also helped me a lot to figure out the basics of this SSG.
+
+## How to run locally
+
+```
+npm install
+npx @11ty/eleventy --serve
+```
+
+As a default your port will be 8080, so browse to http://localhost:8080/. Should this port be taken, a new one will be used. You can see the port you should navigate to when you ran the `--serve` command, use that one.
