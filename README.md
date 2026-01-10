@@ -19,4 +19,4 @@ npm install
 npx @11ty/eleventy --serve
 ```
 
-As a default your port will be at `8080`, so browse to http://localhost:8080/. Should this port be taken, a new one will be used. You can see the port you should navigate to when you ran the `--serve` command, use that one.
+As a default your port will be at `8080`, so browse to http://localhost:8080/. Should this port be taken, a new one will be used. You can see the port you should navigate to when you run the `--serve` command, use that one.
