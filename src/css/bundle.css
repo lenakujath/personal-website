@@ -354,10 +354,11 @@ footer {
         gap: 0;
     }
     span.index-symbol {
-    position: absolute;
-    transform: rotate(180deg);
-}  
+        position: absolute;
+        transform: rotate(180deg);
+    }  
 }
+
 @media (max-width: 480px){
     h1 {
         font-size: 30px;
