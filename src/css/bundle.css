@@ -330,7 +330,7 @@ footer {
     body {
             padding: 3rem;
         }
-}
+    }
 
 @media (max-width: 600px){
     .section-header {
@@ -353,6 +353,10 @@ footer {
     .section {
         gap: 0;
     }
+    span.index-symbol {
+    position: absolute;
+    transform: rotate(180deg);
+}  
 }
 @media (max-width: 480px){
     h1 {
