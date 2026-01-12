@@ -42,7 +42,6 @@ body {
 	margin: 0 auto; 
     font-family: 'Figtree';
     max-width: 1000px;
-    /* background-color: black; use in darkmode */
 }
 
 main {
@@ -55,7 +54,6 @@ main {
     width: 60%;
     align-items: center;
     flex-direction: column;
-    /* background: #280000; maybe use in darkmode */
 }
 
 .title img {
@@ -69,7 +67,6 @@ picture {
     display: inline-block;
     position: relative;
     border-radius: 50%;
-    /* background-color: white; use in darkmode */
 }
 
 .circle {
@@ -83,7 +80,6 @@ picture {
     transform: translate(-50%, -50%) scale(0);
     pointer-events: none;
     transition: transform 0.5s ease;  
-    /* border: 8px solid silver; maybe use in darkmode */
 }
 
 picture:hover .circle {
@@ -126,10 +122,6 @@ picture:hover .circle {
 .section-title {
     font-size: clamp(1rem, 1rem + 2cqw, 1.75rem);
 }
-
-/* h1, h2, h3, p {
-    color: white; use in darkmode
-} */
 
 h1 {
     font-size: 36px;
@@ -181,8 +173,6 @@ a:hover {
     border: 1px solid black;
     box-shadow: 2px 4px 0px 1px black;
     margin-top: 2rem;
-    /* border: 1px solid white;  use in darkmode*/
-    /* box-shadow: 2px 4px 0px 1px white; use in darkmode */
 }
 
 .nav-links li a {
@@ -190,7 +180,6 @@ a:hover {
     color: black;
     font-weight: lighter;
     text-transform: uppercase;
-    /* color: silver; maybe use in darkmode */
 }
 
 .nav-links li a:hover {
