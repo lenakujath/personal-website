@@ -161,7 +161,6 @@ a:hover {
     align-items: center;
     margin-bottom: 8rem; 
     margin-top: 5rem;
-
 } 
 
 .nav-links li {
@@ -251,6 +250,7 @@ section#links-section a {
     border: 2px solid lightgrey;
     border-radius: 20px;
     box-shadow: 1px 4px 10px 2px lightgrey;
+    align-items: center;
 }
 
 .card img {
