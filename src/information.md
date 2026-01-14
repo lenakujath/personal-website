@@ -1,7 +1,7 @@
 ---
 title: "background info"
 subheading: "About me"
-image: "../../../images/info.svg"
+image: "../../../images/question.svg"
 alt: "speech bubble indicating personal info"
 layout: "page.njk"
 ---
