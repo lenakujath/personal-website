@@ -2,7 +2,7 @@
 title: "Say Hi!"
 subheading: "Contact"
 image: "../../../images/feder_papier.svg"
-alt: "compasses as vector graphics"
+alt: "Pen nib, inkwell and vellum placed next to one another"
 layout: 'page.njk'
 ---
 
