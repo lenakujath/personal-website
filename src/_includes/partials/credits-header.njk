@@ -1,0 +1,61 @@
+<div class="topbar">
+  <a href="/">
+    <img 
+        class="logo" 
+        alt="Logo of the site, consists of the letters L and K in black, cursive writing" 
+        src="../../../images/logo.svg" 
+        width="30px" 
+        heigth="30px"
+    >
+  </a>
+  <span>
+    <a href="https://github.com/lenakujath/personal-website">Source</a>
+  </span>
+</div>
+<header id="hero">
+    <nav class="nav">
+      <ul class="nav-links">
+        {% for item in nav.pages %}
+        <li>
+          <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
+            <span>{{ item.label }}</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <div  id="rotate-words">
+      <div>Element One
+        <br/>  
+        <span>Source One</span>
+      </div>
+      <div>Element Two
+        <br/>
+        <span>Source Two</span>
+      </div>
+      <div>Element Three
+        <br/>  
+        <span>Source Three</span>
+      </div>
+      <div>Element Four
+        <br/>
+        <span>Source Four</span>
+      </div>
+      <div>Element Five
+        <br/>  
+        <span>Source Five</span>
+      </div>
+      <div>Element Six
+        <br/>
+        <span>Source Six</span>
+      </div>
+      <div>Element Seven
+        <br/>
+        <span>Source Seven</span>
+      </div>
+      <div>Element Eight
+        <br/>
+        <span>Source Eight</span>
+      </div>
+    </div>
+</header>

@@ -1,5 +1,6 @@
 export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("bundle.css");
+	eleventyConfig.addPassthroughCopy("credits.css");
 	eleventyConfig.addPassthroughCopy("fonts");
 	eleventyConfig.addPassthroughCopy("src");
 	eleventyConfig.addPassthroughCopy("images");
