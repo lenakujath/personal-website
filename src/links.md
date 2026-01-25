@@ -7,7 +7,7 @@ layout: 'links.njk'
 ---
 ### [Midlife Engineering](https://www.midlife.engineering)
 
-Discovered via [Piccalilli's Index](https://piccalil.li/the-index/158). A tool to create ambient soundscapes, relaxing and fun to play around with different modes.
+Discovered via [Piccalilli's Index](https://piccalil.li/the-index/158). A tool to create ambient soundscapes, relaxing and fun way to play around with different modes.
 
 ### [Messenger](https://messenger.abeto.co)
 
