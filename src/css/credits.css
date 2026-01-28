@@ -1,0 +1,85 @@
+#rotate-words {
+    color: #000000;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4rem;
+}
+
+#rotate-words span {
+    display: block;
+    height: 50px;
+    font-size: 1.2rem;
+    text-transform: lowercase;
+    opacity: 15;
+    font-style: italic;
+}
+
+#rotate-words p {
+    position: absolute;
+    opacity: 0;
+    overflow: hidden;
+    right: 25vw;
+    line-height: 1.2em;
+    animation: rotate-word 16s linear infinite 0s;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@keyframes rotate-word {
+    0% { 
+        opacity: 0;  
+        transform: translateX(0);
+        filter: blur(10px);
+        transform: scale(1.2)
+    }
+    3% {
+        opacity: 1;  
+        transform: translateX(0);
+        filter: blur(0px);
+        transform: scale(.9)
+    }
+    12% { 
+        opacity: 1; 
+        transform: translateX(0);
+        filter: blur(0px);
+        transform: scale(1)
+    }
+    16% { 
+        opacity: 0; 
+        transform: translateX(0);
+        filter: blur(10px);
+        transform: scale(1.2)
+    }
+    80% { 
+        opacity: 0;
+    }
+    100% { 
+        opacity: 0
+    }
+}
+
+#rotate-words p:nth-child(2) { 
+    animation-delay: 4s;
+}
+#rotate-words p:nth-child(3) { 
+    animation-delay: 8s
+}
+#rotate-words p:nth-child(4) { 
+    animation-delay: 12s
+}
+
+@media (max-width: 1250px){
+    #rotate-words {
+            display: block;
+        }
+    }
+@media (max-width: 749px){
+    #rotate-words {
+            display: none;
+        }
+    }

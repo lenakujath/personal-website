@@ -1,0 +1,46 @@
+<div class="topbar">
+  <a href="/">
+    <img 
+        class="logo" 
+        alt="Logo of the site, consists of the letters L and K in black, cursive writing" 
+        src="../../../images/logo.svg" 
+        width="30px" 
+        heigth="30px"
+    >
+  </a>
+  <span>
+    <a href="https://github.com/lenakujath/personal-website">Source</a>
+  </span>
+</div>
+<header id="hero">
+    <nav class="nav">
+      <ul class="nav-links">
+        {% for item in nav.pages %}
+        <li>
+          <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
+            <span>{{ item.label }}</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+    <div id="rotate-words">
+      <h1>{{ title }}</h1>
+      <p>Open Clippart-Vectors
+        <br/>  
+        <span>Compasses</span>
+      </p>
+      <p>Open Clippart-Vectors
+        <br/>
+        <span>Lightbulb</span>
+      </p>
+      <p>Mohamed Hassan
+        <br/>  
+        <span> Feather & Ink</span>
+      </p>
+      <p>GDJ
+        <br/>
+        <span>Questionmark</span>
+      </p>
+    </div>
+</header>
