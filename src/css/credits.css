@@ -3,30 +3,31 @@
     text-align: center;
     max-width: 600px;
     margin: auto;
-    padding: 20% 0;
-    font-size: 1.5rem;
-    text-transform: uppercase;
     display: flex;
     width: 100%;
     align-items: center;
+    justify-content: space-between;
+    padding-left: 4rem;
 }
 
 #rotate-words span {
     display: block;
     height: 50px;
-    font-size: .7em;
+    font-size: 1.2rem;
     text-transform: lowercase;
-    opacity: .8;
+    opacity: 15;
+    font-style: italic;
 }
 
 #rotate-words p {
     position: absolute;
     opacity: 0;
     overflow: hidden;
-    left: 22vw;
-    width: 80vw;
+    right: 25vw;
     line-height: 1.2em;
     animation: rotate-word 16s linear infinite 0s;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 @keyframes rotate-word {
@@ -71,3 +72,14 @@
 #rotate-words p:nth-child(4) { 
     animation-delay: 12s
 }
+
+@media (max-width: 1250px){
+    #rotate-words {
+            display: block;
+        }
+    }
+@media (max-width: 749px){
+    #rotate-words {
+            display: none;
+        }
+    }
