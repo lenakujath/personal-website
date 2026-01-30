@@ -19,7 +19,7 @@ The personal website of Eva Decker, a design engineer. You will find interesting
 
 ### [MTV Rewind](https://wantmymtv.vercel.app/player.html)
 
-For everyone, who still remembers the days when MTV was playing music videos all day, this place should be a real treasure. Kudos for such a cool idea. Chances that this site will pull me in and get me stuck there for hours at a time are high.
+For everyone, who still remembers the days when MTV was playing music videos all day, this place should be a real treasure. Kudos for such a cool idea. High chances this site will pull me in and get me stuck there for hours at a time.
 
 ### [Piccalilli](https://piccalil.li/)
 
