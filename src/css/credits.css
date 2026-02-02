@@ -73,6 +73,15 @@
     animation-delay: 12s
 }
 
+#credits-section ul {
+    margin-top: 3rem;
+}
+
+#credits-section li {
+    padding: 0.5rem;
+    list-style: none;
+}
+
 @media (max-width: 1250px){
     #rotate-words {
             display: block;
