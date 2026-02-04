@@ -5,6 +5,11 @@ image: "../../../images/idea.svg"
 alt: "lightbulb vector graph"
 layout: 'links.njk'
 ---
+### [Angela Collier](https://www.youtube.com/@acollierastro/videos)
+
+Youtube Channel of theoretical physicist Angela Collier. She takes on a variety of topics in the realm of physics and science in general
+in a very entertaining way. Some videos are hands on guides on how to take on a physics problem, others, as some about rather absurd fads and opinions out there, are nice to maybe shake your head and share a laugh about.
+
 ### [Midlife Engineering](https://www.midlife.engineering)
 
 Discovered via [Piccalilli's Index](https://piccalil.li/the-index/158). A tool to create ambient soundscapes, relaxing and fun way to play around with different modes.
