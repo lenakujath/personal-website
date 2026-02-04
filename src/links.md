@@ -5,6 +5,11 @@ image: "../../../images/idea.svg"
 alt: "lightbulb vector graph"
 layout: 'links.njk'
 ---
+
+### [Progressive Enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement)
+
+UK Gov's very thourough guide for building solid frontends following progressive enhancement practices. Especially when providing services that need to be available to everyone, it should should go without further explanation that the accessiblity of those can not be dependent on high-end devices.
+
 ### [Angela Collier](https://www.youtube.com/@acollierastro/videos)
 
 Youtube Channel of theoretical physicist Angela Collier. She takes on a variety of topics in the realm of physics and science in general
