@@ -5,6 +5,10 @@ image: "../../../images/idea.svg"
 alt: "lightbulb vector graph"
 layout: 'links.njk'
 ---
+### [The Web is Fantastic Actually](https://sightlessscribbles.com/posts/20250603)
+
+Even with all the mechanisms of the corporate web that leaves people drained and turned off, Robert Kingett elaborates on a conviction that I wholeheartedly share: the web is (can be) in fact great. With some effort on the users side, there still are great places to discover, to learn new things, to exchange ideas. The author points to some excellent places for everyone curious about the indie web.
+
 
 ### [Progressive Enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement)
 
