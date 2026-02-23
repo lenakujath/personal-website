@@ -1,3 +1,36 @@
+:root {
+  --color-mode: 'light';
+  --color-dark: #151615;
+  --color-light: #dadede;
+  --background: #fffff;
+  --logo-dark: none;
+  --logo-light: 'block';
+  --text-color: #141414;
+  --link-color: #141414;
+  --button-color: var(--color-light);
+  --border-color: var(--color-dark-alpha);
+}
+
+:root:not([data-user-color-scheme]) {
+--background: var(--color-dark);
+--logo-dark: 'block';
+--logo-light: none;
+--text-color: var(--color-light);
+--link-color: var(--color-light);
+--button-color: var(--color-dark);
+--border-color: var(--color-light-alpha);
+}
+
+[data-user-color-scheme='dark'] {
+  --background: var(--color-dark);
+  --logo-dark: 'block';
+  --logo-light: none;
+  --text-color: var(--color-light);
+  --link-color: var(--color-light);
+  --button-color: var(--color-dark);
+  --border-color: var(--color-light-alpha);
+}
+
 /* figtree-regular - latin */
 @font-face {
     font-display: swap; 
@@ -42,12 +75,64 @@ body {
 	margin: 0 auto; 
     font-family: 'Figtree';
     max-width: 1000px;
+    background: var(--background);
+    color: var(--text-color);
+    transition: background 500ms ease-in-out, color 200ms ease;
 }
 
 main {
     max-width: 1300px;
     margin: 0 auto;
 }
+
+h1 {
+    font-size: 36px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.3;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link-color);
+    font-weight: bold;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.visually-hidden {
+  display: block;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(1px);
+  white-space: nowrap;
+  position: absolute;
+}
+
+.no-js .user-toggle {
+  display: none;
+}
+
 
 .title {
     display: flex;
@@ -123,38 +208,6 @@ picture:hover .circle {
     font-size: clamp(1rem, 1rem + 2cqw, 1.75rem);
 }
 
-h1 {
-    font-size: 36px;
-    font-weight: 300;
-    text-transform: uppercase;
-}
-
-h2 {
-    text-align: left;
-    font-size: 30px;
-    font-weight: 300;
-}
-
-h3 {
-    font-size: 25px;
-}
-
-p {
-    font-size: 16px;
-    line-height: 1.3;
-    text-align: left;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-}
-
-a:hover {
-    cursor: pointer;
-}
-
 #hero { 
     width: 100%; 
     display: flex;
@@ -170,14 +223,13 @@ a:hover {
     font-family: 'Figtree';
     font-size: 16px;
     transform: skew(-15deg);
-    border: 1px solid black;
-    box-shadow: 2px 4px 0px 1px black;
+    border: 1px solid var(--text-color);
+    box-shadow: 2px 4px 0px 1px var(--text-color);
     margin-top: 2rem;
 }
 
 .nav-links li a {
     padding: 1rem 1.5rem;
-    color: black;
     font-weight: lighter;
     text-transform: uppercase;
 }
@@ -191,10 +243,6 @@ ul.nav-links {
     margin-bottom: 5rem;
 }
 
-a:visited {
-    color: black;
-}
-
 .topbar {
     display: flex;
     position: relative;
@@ -206,6 +254,14 @@ a:visited {
 .logo {
     width: 60px;
     height: 60px;
+}
+
+.light-logo {
+    display: var(--logo-light);
+}
+
+.dark-logo {
+    display: var(--logo-dark);
 }
 
 #about-me {
@@ -366,4 +422,10 @@ footer {
     h3 {
         font-size: 18px;
     }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-mode: 'dark';
+  }
 }
