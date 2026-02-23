@@ -1,16 +1,26 @@
 <div class="topbar">
   <a href="/">
     <img 
-        class="logo" 
+        class="logo light-logo" 
         alt="Logo of the site, consists of the letters L and K in black, cursive writing" 
         src="../../../images/logo.svg" 
-        width="30px" 
-        heigth="30px"
+    >
+    <img 
+        class="logo dark-logo" 
+        alt="Logo of the site, consists of the letters L and K in black, cursive writing" 
+        src="../../../images/favicon.svg" 
     >
   </a>
   <span>
     <a href="https://github.com/lenakujath/personal-website">Source</a>
   </span>
+  <div class="user-toggle">
+    <div role="status" class="visually-hidden js-mode-status"></div>
+    <button class="toggle-button js-mode-toggle">
+      <span class="toggle-button__text js-mode-toggle-text">Enable dark mode</span>
+      <span class="toggle-button__icon" aria-hidden="true"></span>
+    </button>
+  </div>
 </div>
 <header id="hero">
     <nav class="nav">
