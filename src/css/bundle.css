@@ -1,26 +1,29 @@
 :root {
   --color-mode: 'light';
   --color-dark: #151615;
-  --color-light: #dadede;
+  --color-light: #dddddd;
   --background: #fffff;
-  --logo-dark: none;
-  --logo-light: 'block';
+  --logo: invert(0%);
+  --sun: none;
+  --moon: 'block';
   --text-color: #141414;
   --link-color: #141414;
 }
 
 :root:not([data-user-color-scheme]) {
---background: var(--color-dark);
---logo-dark: 'block';
---logo-light: none;
---text-color: var(--color-light);
---link-color: var(--color-light);
+  --background: var(--color-dark);
+  --logo: invert(100%);
+  --sun: 'block';
+  --moon: none;
+  --text-color: var(--color-light);
+  --link-color: var(--color-light);
 }
 
 [data-user-color-scheme='dark'] {
   --background: var(--color-dark);
-  --logo-dark: 'block';
-  --logo-light: none;
+  --sun: 'block';
+  --moon: none;
+  --logo: invert(100%);
   --text-color: var(--color-light);
   --link-color: var(--color-light);
 }
@@ -130,14 +133,24 @@ main {
 .logo {
     width: 60px;
     height: 60px;
+    filter: var(--logo);
 }
 
-.light-logo {
-    display: var(--logo-light);
+.toggle-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: none;
+    cursor: pointer;
 }
 
-.dark-logo {
-    display: var(--logo-dark);
+.sun {
+    display: var(--sun);
+    filter: invert(100%);
+}
+
+.moon {
+    display: var(--moon);
 }
 
 .topbar {
