@@ -7,8 +7,6 @@
   --logo-light: 'block';
   --text-color: #141414;
   --link-color: #141414;
-  --button-color: var(--color-light);
-  --border-color: var(--color-dark-alpha);
 }
 
 :root:not([data-user-color-scheme]) {
@@ -17,8 +15,6 @@
 --logo-light: none;
 --text-color: var(--color-light);
 --link-color: var(--color-light);
---button-color: var(--color-dark);
---border-color: var(--color-light-alpha);
 }
 
 [data-user-color-scheme='dark'] {
@@ -27,8 +23,6 @@
   --logo-light: none;
   --text-color: var(--color-light);
   --link-color: var(--color-light);
-  --button-color: var(--color-dark);
-  --border-color: var(--color-light-alpha);
 }
 
 /* figtree-regular - latin */
@@ -80,11 +74,6 @@ body {
     transition: background 500ms ease-in-out, color 200ms ease;
 }
 
-main {
-    max-width: 1300px;
-    margin: 0 auto;
-}
-
 h1 {
     font-size: 36px;
     font-weight: 300;
@@ -117,6 +106,11 @@ a:hover {
     cursor: pointer;
 }
 
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
 .visually-hidden {
   display: block;
   height: 1px;
@@ -133,6 +127,26 @@ a:hover {
   display: none;
 }
 
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.light-logo {
+    display: var(--logo-light);
+}
+
+.dark-logo {
+    display: var(--logo-dark);
+}
+
+.topbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    top: 1rem;
+}
 
 .title {
     display: flex;
@@ -171,43 +185,6 @@ picture:hover .circle {
     transform: skew(-36deg, 11deg);
 }
 
-.section {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 0.5rem;
-
-  @media (min-width: 600px) {
-    grid-template-columns: 240px 1fr;
-  }
-}
-
-.section:has(.card:nth-last-child(n + 4)) {
-  grid-template-columns: 1fr;
-
-   .section-header {
-    display: flex;
-    gap: 1rem;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 0.5rem;
-  }
-}
-
-.section-header {
-    container-name: section-header;
-    container-type: inline-size;
-}
-
-.section-header img {
-    width: 250px;
-    height: 250px;
-    object-fit: contain;
-    }
-
-/* Using cqw unit with clamp() to achieve fluent typography*/
-.section-title {
-    font-size: clamp(1rem, 1rem + 2cqw, 1.75rem);
-}
-
 #hero { 
     width: 100%; 
     display: flex;
@@ -243,27 +220,6 @@ ul.nav-links {
     margin-bottom: 5rem;
 }
 
-.topbar {
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    align-items: center;
-    top: 1rem;
-}
-
-.logo {
-    width: 60px;
-    height: 60px;
-}
-
-.light-logo {
-    display: var(--logo-light);
-}
-
-.dark-logo {
-    display: var(--logo-dark);
-}
-
 #about-me {
     text-align: left;
 }
@@ -293,6 +249,43 @@ section#links-section a {
 .project-container {
     container-type: inline-size;
     width: 100%;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+
+  @media (min-width: 600px) {
+    grid-template-columns: 240px 1fr;
+  }
+}
+
+.section:has(.card:nth-last-child(n + 4)) {
+  grid-template-columns: 1fr;
+
+   .section-header {
+    display: flex;
+    gap: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.section-header {
+    container-name: section-header;
+    container-type: inline-size;
+}
+
+.section-header img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    }
+
+/* Using cqw unit with clamp() to achieve fluent typography*/
+.section-title {
+    font-size: clamp(1rem, 1rem + 2cqw, 1.75rem);
 }
 
 .card {
