@@ -26,9 +26,6 @@ const applySetting = passedSetting => {
 };
 
 const setButtonLabelAndStatus = currentSetting => {
-  modeToggleText.innerText = `Switch to ${
-    currentSetting === 'dark' ? 'light' : 'dark'
-  } mode`;
   modeStatusElement.innerText = `Color mode is now "${currentSetting}"`;
 };
 
