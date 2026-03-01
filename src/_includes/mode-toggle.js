@@ -4,7 +4,6 @@ const STORAGE_KEY = 'user-color-scheme';
 const COLOR_MODE_KEY = '--color-mode';
 
 const modeToggleButton = document.querySelector('.js-mode-toggle');
-const modeToggleText = document.querySelector('.js-mode-toggle-text');
 const modeStatusElement = document.querySelector('.js-mode-status');
 
 const getCSSCustomProp = propKey => {
