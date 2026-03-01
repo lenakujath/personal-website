@@ -6,6 +6,10 @@ titleImage: "invert"
 alt: "lightbulb vector graph"
 layout: 'links.njk'
 ---
+### [x86 CPU made in CSS](https://lyra.horse/x86css)
+
+[Lyra Bane](https://lyra.horse/) built a CPU using nothing but CSS! Absolutely crazy and incredibly cool. 
+
 ### [The Web is Fantastic Actually](https://sightlessscribbles.com/posts/20250603)
 
 Even with all the mechanisms of the corporate web that leaves people drained and turned off, Robert Kingett elaborates on a conviction that I wholeheartedly share: the web is (can be) in fact great. With some effort on the users side, there still are great places to discover, to learn new things, to exchange ideas. The author points to some excellent places for everyone curious about the indie web.
