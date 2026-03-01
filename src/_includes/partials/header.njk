@@ -3,31 +3,10 @@
     <img 
         class="logo" 
         alt="Logo of the site, consists of the letters L and K in black, cursive writing" 
-        src="../../../images/logo.svg" 
+        src="../../../images/logo-no-background.svg" 
     >
   </a>
-  <span>
-    <a href="https://github.com/lenakujath/personal-website">Source</a>
-  </span>
-  <div class="user-toggle">
-    <div role="status" class="visually-hidden js-mode-status"></div>
-    <button class="toggle-button js-mode-toggle">
-      <span class="toggle-button__icon sun" aria-hidden="true">
-        <img 
-        class="theme-toggle-icon" 
-        alt="icon of the sun to indicate light mode switch" 
-        src="../../../images/sun.svg" 
-        >
-      </span>
-      <span class="toggle-button__icon moon" aria-hidden="true">
-        <img 
-        class="theme-toggle-icon" 
-        alt="icon of the moon to indicate dark mode switch" 
-        src="../../../images/moon.svg" 
-        >
-      </span>
-    </button>
-  </div>
+  {% include "partials/toggle-icon.njk" %}
 </div>
 <header id="hero">
     <nav class="nav">
@@ -45,7 +24,7 @@
       <figure style="{{ style }}">
         <a style="{{ hlink }}" href="{{ href }}">
           <picture>
-            <img fetchpriority="high" alt="{{ alt }}" src="{{ image }}">
+            <img class="{{titleImage}}" fetchpriority="high" alt="{{ alt }}" src="{{ image }}">
             <span class="{{ class }}"></span>
           </picture>
         </a>

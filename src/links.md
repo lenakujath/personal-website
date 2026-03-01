@@ -2,6 +2,7 @@
 title: "cool stuff I saw or read"
 subheading: "Places on the internet where I considere time well spent:"
 image: "../../../images/idea.svg"
+titleImage: "invert"
 alt: "lightbulb vector graph"
 layout: 'links.njk'
 ---

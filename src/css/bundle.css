@@ -4,8 +4,9 @@
   --color-light: #dddddd;
   --background: #fffff;
   --logo: invert(0%);
+  --images: invert(0%);
   --sun: none;
-  --moon: 'block';
+  --moon: block;
   --text-color: #141414;
   --link-color: #141414;
 }
@@ -13,7 +14,8 @@
 :root:not([data-user-color-scheme]) {
   --background: var(--color-dark);
   --logo: invert(100%);
-  --sun: 'block';
+  --images: invert(60%);
+  --sun: block;
   --moon: none;
   --text-color: var(--color-light);
   --link-color: var(--color-light);
@@ -21,7 +23,8 @@
 
 [data-user-color-scheme='dark'] {
   --background: var(--color-dark);
-  --sun: 'block';
+  --images: invert(60%);
+  --sun: block;
   --moon: none;
   --logo: invert(100%);
   --text-color: var(--color-light);
@@ -134,6 +137,7 @@ main {
     width: 60px;
     height: 60px;
     filter: var(--logo);
+    fill-opacity: 0.0;
 }
 
 .toggle-button {
@@ -173,6 +177,10 @@ main {
     width: 350px;
     object-fit: contain;
     display: block;
+}
+
+.invert {
+    filter: var(--images);
 }
 
 picture {

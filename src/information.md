@@ -2,6 +2,7 @@
 title: "background info"
 subheading: "About me"
 image: "../../../images/question.svg"
+titleImage: "invert"
 alt: "speech bubble indicating personal info"
 layout: "page.njk"
 ---

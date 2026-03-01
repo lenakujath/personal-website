@@ -2,6 +2,7 @@
 title: "start here"
 symbol: "☝"
 image: "../../../images/portrait_bw.webp"
+titleImage: "no-invert"
 class: "circle"
 href: "/information#about-me"
 alt: "profile picture of the site's author"
