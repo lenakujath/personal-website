@@ -6,6 +6,8 @@ titleImage: "invert"
 alt: "lightbulb vector graph"
 layout: 'links.njk'
 ---
+Cool and interesting stuff I saw or read:
+
 ### [x86 CPU made in CSS](https://lyra.horse/x86css)
 
 [Lyra Bane](https://lyra.horse/) built a CPU using nothing but CSS! Absolutely crazy and incredibly cool. 

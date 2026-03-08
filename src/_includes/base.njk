@@ -13,9 +13,22 @@
   <body>
       {% include "partials/header.njk" %}
       <main>
-        {% block content %}
+      <header id="hero">
+        <nav class="nav">
+          <ul class="nav-links">
+            {% for item in nav.pages %}
+            <li>
+              <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
+                <span>{{ item.label }}</span>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </nav>
+        <div class="title">
           {{ content | safe }}
-        {% endblock %}
+        </div>
+    </header>
       </main>
       {% include "partials/footer.njk" %}
       <script src="/bundle.js"></script>

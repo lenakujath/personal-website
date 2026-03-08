@@ -1,20 +1,20 @@
 {
   "pages": [
     {
-      "label": "Information",
-      "url": "/information#about-me"
-    },
-    {
       "label": "Playground",
-      "url": "/playground#playground"
+      "url": "/playground"
     },
      {
       "label": "Links etc.",
-      "url": "/links#links-section"
+      "url": "/links"
     },
     {
       "label": "Contact",
-      "url": "/contact#about-me"
+      "url": "/contact"
+    },
+      {
+      "label": "Information",
+      "url": "/information"
     }
   ]
 }

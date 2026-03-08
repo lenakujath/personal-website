@@ -13,11 +13,6 @@
   </head>
   <body>
       {% include "partials/credits-header.njk" %}
-      <main>
-        {% block content %}
-          {{ content | safe }}
-        {% endblock %}
-      </main>
       {% include "partials/footer.njk" %}
       <script src="/bundle.js"></script>
   </body>

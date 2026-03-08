@@ -6,8 +6,8 @@ titleImage: "no-invert"
 class: "circle"
 href: "/information#about-me"
 alt: "profile picture of the site's author"
-layout: 'index.njk'
+layout: 'base.njk'
 ---
 
 ## Hi, I'm Lena! 
-I'm a web developer who fell in love with the independent web once and now strives to keep on learning about its magic. Currently based in the south of Germany.
+I fell in love with the independent web once and now strive to discover more of the hidden corners where the flame is still kept alive.
