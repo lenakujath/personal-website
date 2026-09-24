@@ -1,6 +1,6 @@
 # lenakujath.dev
 
-| :point_up:    | For now the puplished code is not synced with production (and represents a previous version). Is this ideal? Probably not. As soon as I have the space and muse to decide on a workflow that makes sense to me and this small site, I will get back to it. |
+| :point_up:    | At the moment the puplished code is not synced with production (and represents a previous version). Is this ideal? Probably not. As soon as I have the space and muse to decide on a workflow that makes sense to me and this small site, I will get back to it. |
 |---------------|:----------------------------------------|
 
 This repo contains the source code to my personal website.
